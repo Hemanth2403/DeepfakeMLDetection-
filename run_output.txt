@@ -1,0 +1,2 @@
+SUCCESS: The process "python.exe" with PID 18684 has been terminated.
+SUCCESS: The process "python.exe" with PID 1544 has been terminated.
