@@ -1,10 +1,4 @@
-![parallel coordinates plot](/images/parcoords.gif)
 
-Read the technical deep dive: https://www.dessa.com/post/deepfake-detection-that-actually-works
-
-# Visual DeepFake Detection
-
-In our recent [article](https://www.dessa.com/post/deepfake-detection-that-actually-works), we make the following contributions:
 * We show that the model proposed in current state of the art in video manipulation (FaceForensics++) does not generalize to real-life videos randomly 
 collected 
 from Youtube.
@@ -15,7 +9,7 @@ paper are not sufficient for making neural networks generalize to detect real-li
  behavior which relies on adding more data. 
  
 Our Pytorch model is based on a pre-trained ResNet18 on Imagenet, that we finetune to solve the deepfake detection problem.
-We also conduct large scale experiments using Dessa's open source scheduler + experiment manger [Atlas](https://github.com/dessa-research/atlas).
+We also conduct large scale experiments using Dessa's open source scheduler + experiment manger 
 
 ## Setup 
 
@@ -148,14 +142,6 @@ mentioned in FaceForensics++ paper.
 ![model3](/images/model3.png)
 ![model33](/images/model33.png)
 
-for a more in depth explanation of these results, please refer to the [article](https://www.dessa.com/post/deepfake-detection-that-actually-works) we published. More results can be seen in the 
-[interactive UI](http://deepfake-detection.dessa.com/projects)
 
 ## Help improve this technology
 
-Please feel free to fork this work and keep pushing on it.
-
-If you also want to help improving the deepfake detection datasets, please share your real/forged samples at foundations@dessa.com.
-
-## LICENSE
-© 2020 Square, Inc. ATLAS, DESSA, the Dessa Logo, and others are trademarks of Square, Inc. All third party names and trademarks are properties of their respective owners and are used for identification purposes only.
